@@ -1,9 +1,8 @@
-disabled: true
 name: 'Hello World'
 description: 'Greet someone'
 runs:
-  using: "composite"
+  using: "none"
   steps:
     - id: random-number-generator
-      run: echo "DISABLED random-number=$(echo $RANDOM)"
+      run: echo "NONE random-number=$(echo $RANDOM)"
       shell: bash
