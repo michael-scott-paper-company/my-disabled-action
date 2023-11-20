@@ -5,3 +5,4 @@ runs:
   steps:
     - id: random-number-generator
       run: echo "random-number=$(echo $RANDOM)"
+      shell: bash
