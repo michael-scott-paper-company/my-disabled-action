@@ -5,5 +5,5 @@ runs:
   using: "composite"
   steps:
     - id: random-number-generator
-      run: echo "random-number=$(echo $RANDOM)"
+      run: echo "DISABLED random-number=$(echo $RANDOM)"
       shell: bash
